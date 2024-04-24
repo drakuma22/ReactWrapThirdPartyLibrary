@@ -1,4 +1,4 @@
-import ArrayWrapper from "./ArrayWrapper";
+import ArrayWrapper from "./components/ArrayWrapper";
 
 function App() {
   const data = [1, 2, 3, 4, 5];
