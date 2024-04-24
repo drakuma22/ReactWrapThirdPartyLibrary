@@ -1,7 +1,7 @@
 import { useState, useEffect, ReactNode } from "react";
 import _ from "lodash";
 
-const ArrayWrapper = <T extends ReactNode>({
+const UseLodash = <T extends ReactNode>({
   dataArray,
   method,
   operation,
@@ -29,4 +29,4 @@ const ArrayWrapper = <T extends ReactNode>({
   return newArray;
 };
 
-export default ArrayWrapper;
+export default UseLodash;
